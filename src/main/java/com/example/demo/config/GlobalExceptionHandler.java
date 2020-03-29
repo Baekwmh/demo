@@ -23,8 +23,6 @@ public class GlobalExceptionHandler  extends ResponseEntityExceptionHandler {
         CustomException exception = (CustomException) e;
         return new ErrorResponseEntity(exception.getCode(), exception.getMessage());
     }
-
-
     @ExceptionHandler(RuntimeException.class)
     public ErrorResponseEntity runtimeExceptionHandler(HttpServletRequest request, final Exception e,
                                                        HttpServletResponse response) {

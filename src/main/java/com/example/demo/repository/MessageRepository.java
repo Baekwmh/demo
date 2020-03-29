@@ -11,5 +11,6 @@ public interface MessageRepository {
     void delete(Long id);
     Message update(Message message);
     Message updateText(Message message);
+
 }
 

@@ -9,7 +9,6 @@ public enum ExceptionType {
     NOT_FOUND_ERROR (404,"没找到"),
     OTHER_ERROR(999,"其他未知异常"),
             ;
-
     private int code;
     private  String msg;
 

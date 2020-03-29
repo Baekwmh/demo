@@ -32,7 +32,6 @@ public class MessageController {
         Message msg = this.messageService.update(message);
         return ResponseEntity.ok(msg);
     }
-
     @PatchMapping("/message/text")
     public ResponseEntity<Message> patch(Message message) {
         Message msg = this.messageService.updateText(message);

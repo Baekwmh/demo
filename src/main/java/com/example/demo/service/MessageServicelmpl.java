@@ -32,7 +32,6 @@ public class MessageServicelmpl implements MessageService {
         repository.delete(id);
     }
 
-
     @Override
     public Message update(Message message) throws CustomException {
         return repository.update(message);
