@@ -5,5 +5,6 @@ public class ErrorResponseEntity {
     private String message;
 
     public ErrorResponseEntity(int value, String defaultMessage) {
+
     }
 }

@@ -12,3 +12,4 @@ public interface MessageService {
     Message update(Message message);
     Message updateText(Message message);
 }
+

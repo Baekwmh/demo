@@ -12,3 +12,4 @@ public interface MessageRepository {
     Message update(Message message);
     Message updateText(Message message);
 }
+
